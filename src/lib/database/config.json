@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "myPassword",
+    "username": "htsassignment_user",
+    "password": "zFNTh05jjN9psTBJUAYLjwQfpXiLd7xb",
     "database": "htsassignment",
-    "host": "localhost",
+    "host": "dpg-cpc51csf7o1s738a7stg-a",
     "dialect": "postgres"
   }
 }
