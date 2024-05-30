@@ -25,6 +25,12 @@ export default class PostgresService {
       username: user,
       password,
       logging: false,
+      dialectOptions: {
+        ssl: {
+          require: true,
+          rejectUnauthorized: false,
+        },
+      },
       omitNull: true,
       modelPaths: [`${__dirname}/../models`],
       modelMatch: (filename, member) => {
