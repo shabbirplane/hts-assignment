@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc && npx sequelize db:create && npx sequelize db:migrate",
+    "build": "tsc",
     "start:dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "start:prod": "npm run build && node dist/index.js"
   },
